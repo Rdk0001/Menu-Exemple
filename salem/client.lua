@@ -5,7 +5,7 @@ TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 
 RMenu.Add('test', 'main', RageUI.CreateMenu("cc", ""))
-RMenu.Add('test', 'testp', RageUI.CreateSubMenu(RMenu:Get('test', 'main'), "cc", ""))
+RMenu.Add('test', 'testp', RageUI.CreateSubMenu(RMenu:Get('test', 'main'), "cc", " "))
 
 
 
